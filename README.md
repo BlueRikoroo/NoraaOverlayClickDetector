@@ -60,6 +60,8 @@ This extention sends webhook data to an external self-hosted website. To do this
 * Make the sending of the webhook a bit more effectient if possible.
 * Remove unecessary code from the transfer of websocket code to webhook code.
 
-# Fork Credit
+# Credits
 This project was a fork of AdelaFoofur82's FoofurBot-CaptureClickOverlay which you can find here:
 https://github.com/AdelaFoofur82/FoofurBot-CaptureClickOverlay
+
+Big thanks to [\_iEpic](https://github.com/iiEpic) for his work on getting the networking side of this project working.
