@@ -8,5 +8,6 @@ window.NoraaBot.on('send', (event, data) => {
     var request = new XMLHttpRequest();
     request.open("POST", url);
     request.setRequestHeader("Content-type", "application/json");
+    request.setRequestHeader("Access-Control-Allow-Origin", "*");
     request.send(JSON.stringify(data));
 });
