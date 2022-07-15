@@ -59,6 +59,7 @@ This extention sends webhook data to an external self-hosted website. To do this
   * Change Cursor
 * Make the sending of the webhook a bit more effectient if possible.
 * Remove unecessary code from the transfer of websocket code to webhook code.
+* When mouse stops moving, send current position (Because of the delay, currently hard coded at 5 times per second, and the fact that it only sends the data on mouse move, not mouse stop)
 
 # Credits
 This project was a fork of AdelaFoofur82's FoofurBot-CaptureClickOverlay which you can find here:
