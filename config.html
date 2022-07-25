@@ -39,7 +39,10 @@
 <div>
     <section>
         <form name="config" id="config">
-            <h3>General Configuration</h3>
+            <p class="mb3">
+                This config file is not currently set-up and I believe does not load correctly. There are currently no options to modify anyways. At the time of writing, we have plans to implement a webhook url option (so others can use this extention), a recording speed options (how many times per second to send mouse movement data), and to change cursor. If you would like to help implement anything, feel free to submit a pull-request on the github. https://github.com/Aaron1997ps/NoraaOverlayClickDetector
+            </p>
+            <!-- <h3>General Configuration</h3>
             <p class="mb3">
                 <label for="websocket" class="form-label">Type in a websocket URL where you want viewer interactions
                     to be sent <i>(SSL
@@ -62,15 +65,12 @@
             </p>
 
             <input type="submit" class="btn btn-primary" value="SUBMIT" />
+            -->
         </form>
     </section>
-    <section>
-        <h3>Documentation</h3>
-        <p>Here there is an example of the JSON message sent to the WebSocket Server.</p>
-    </section>
 
-    <!-- Twitch -->
-    <script src="//extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <!-- Twitch Extention Helper -->
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
 
     <!-- JQUERY -->
     <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
